@@ -428,7 +428,7 @@
                         <h4 class="poppins">Dear,</h4>
                             <span class="poppins bold" id="name-to"></span>
                             <h2 class="poppins">You’re Invited!</h2>
-                        <button type="button" onclick="playSound()" data-bs-dismiss="modal" class="btn btn-primary btn-custom shadow"
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-primary btn-custom shadow"
                             id="send-messages" style="margin: 2rem auto;">Open Invitation</button>
                         <div class="row vendor-wrapper my-4">
                             <div class="col-6 offset-3">
@@ -470,16 +470,6 @@
             var clipboard = new ClipboardJS('.copy-to');
             clipboard;
         });
-
-        var sound = new Howl({
-            src: ['./assets/song.mp3'],
-            autoplay: false,
-            loop: true,
-        });
-
-        function playSound(){
-            sound.play();
-        }
         
         </script>
 

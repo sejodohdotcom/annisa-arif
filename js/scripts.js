@@ -37,6 +37,14 @@ $(document).ready(function () {
 
     $('body').addClass('loaded');
 
+    var sound = new Howl({
+        src: ['./assets/song.mp3'],
+        autoplay: false,
+        loop: true,
+    });
+
+    sound.play();
+
     //===== Prealoder
 
     // window.onload = function () {
