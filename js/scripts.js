@@ -85,15 +85,6 @@ $(document).ready(function () {
         window.open('https://goo.gl/maps/kF8WWuAz8vSx5T6y7', '_blank');
     };
 
-
-    var sound = new Howl({
-        src: ['./assets/song.mp3'],
-        autoplay: true,
-        loop: true,
-    });
-
-    sound.play();
-
     $('#btn-scroll').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
