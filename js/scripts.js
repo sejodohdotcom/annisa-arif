@@ -82,7 +82,7 @@ $(document).ready(function () {
     });
 
     document.querySelector("#share-lock").onclick = function () {
-        window.open('https://goo.gl/maps/kF8WWuAz8vSx5T6y7', '_blank');
+        window.open('https://goo.gl/maps/LGYCdVAzctDDvr289', '_blank');
     };
 
     $('#btn-scroll').on('click', function (e) {
